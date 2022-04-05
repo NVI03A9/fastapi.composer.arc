@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-04-05T09:44:51.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" version="17.4.0" etag="xn5qAK_KpG2wkkTx1NKF" type="github"><diagram id="66ecPgnxT9esDYx0BW1N">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-05T11:41:52.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="CqOIyStv3s0CQuLAxa7o" version="17.4.0" type="github">
+  <diagram id="66ecPgnxT9esDYx0BW1N" name="Page-1">
+    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dqwr7O1o_qfhDxYbxv6v-6" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="270" width="700" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Dqwr7O1o_qfhDxYbxv6v-7" value="Data Access Layer" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Dqwr7O1o_qfhDxYbxv6v-6">
+          <mxGeometry y="20" width="700" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Dqwr7O1o_qfhDxYbxv6v-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DbConnector&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_connection_string(): str&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_engine(): sqlalchemy.engine&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __is_db_exist(): bool&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create_db(): (bool, str)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __execute_script(): None&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ drop_db(): None&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ _fill_sql_functions(): (bool, str)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __fill_etl_services(realm): (bool, str)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ change_mark_object(guid, mark, table, **kw): (bool, str)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ update_object(guid, table, **kw): (bool, str)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create_object(table, **kw): (bool, str)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_table(table, **kw): (bool, str)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_vdwh_list(**kw): (list, str)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_vdwh_names(**kw): (list, str)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ drop_object(table, guid, **kw): (bool, str)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Dqwr7O1o_qfhDxYbxv6v-7">
+          <mxGeometry x="30" y="10" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Dqwr7O1o_qfhDxYbxv6v-8" value="Service Layer" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Dqwr7O1o_qfhDxYbxv6v-6">
+          <mxGeometry y="360" width="700" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dqwr7O1o_qfhDxYbxv6v-9" value="View" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="Dqwr7O1o_qfhDxYbxv6v-6">
+          <mxGeometry y="480" width="700" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
